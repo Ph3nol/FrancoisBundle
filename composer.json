@@ -1,0 +1,21 @@
+{
+    "name": "sly/francois-bundle",
+    "type": "symfony-bundle",
+    "description": "HééHééééh...",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cédric Dugat",
+            "email": "cedric@dugat.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.3"
+    },
+    "autoload": {
+        "psr-0": { "Sly\\FrancoisBundle": "" }
+    },
+    "target-dir": "Sly/FrancoisBundle"
+}

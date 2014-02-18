@@ -1,0 +1,10 @@
+parameters:
+    sly_francois.twig.francois_extension.class: Sly\FrancoisBUndle\Twig\FrancoisExtension
+
+services:
+    sly_francois.twig.francois_extension:
+        class: %sly_francois.twig.francois_extension.class%
+        arguments:
+            - %sly_francois.config%
+        tags:
+            - { name: twig.extension }

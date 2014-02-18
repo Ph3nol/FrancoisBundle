@@ -1,0 +1,9 @@
+parameters:
+    sly_francois.data_collector.class: Sly\FrancoisBundle\DataCollector\FrancoisDataCollector
+    sly_francois.data_collector.template: 'SlyFrancoisBundle:Collector:francois'
+
+services:
+    sly_francois.data_collector:
+        class: %sly_francois.data_collector.class%
+        tags:
+            - { name: data_collector, template: %sly_francois.data_collector.template%, id: sly_francois }
