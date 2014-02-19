@@ -31,7 +31,7 @@
 
             {% set fVideo = francois_video() %}
             {% if fVideo %}
-                <div style="padding: 20px; text-align: center;">{{ fVideo }}</div>
+                <div style="padding: 20px; text-align: center;">{{ fVideo|raw }}</div>
             {% endif %}
 
             <div class="close-quote">

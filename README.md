@@ -38,11 +38,11 @@ Finally, override some dev views with adding it into your `composer.json` file
     "scripts": {
         "post-install-cmd": [
             // ...
-            "ln -s vendor/sly/francois-bundle/Sly/FrancoisBundle/Resources/TwigBundle app/Resources/TwigBundle"
+            "ln -sf ../../vendor/sly/francois-bundle/Sly/FrancoisBundle/Resources/TwigBundle app/Resources/TwigBundle"
         ],
         "post-update-cmd": [
             // ...
-            "ln -s vendor/sly/francois-bundle/Sly/FrancoisBundle/Resources/TwigBundle app/Resources/TwigBundle"
+            "ln -sf ../../vendor/sly/francois-bundle/Sly/FrancoisBundle/Resources/TwigBundle app/Resources/TwigBundle"
         ]
     },
     // ...

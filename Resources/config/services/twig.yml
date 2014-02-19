@@ -1,5 +1,5 @@
 parameters:
-    sly_francois.twig.francois_extension.class: Sly\FrancoisBUndle\Twig\FrancoisExtension
+    sly_francois.twig.francois_extension.class: Sly\FrancoisBundle\Twig\FrancoisExtension
 
 services:
     sly_francois.twig.francois_extension:
