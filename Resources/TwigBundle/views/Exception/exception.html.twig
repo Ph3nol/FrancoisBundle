@@ -30,7 +30,8 @@
             {% endif %}
 
 
-            {% if 404 === status_code %}
+            {% if status_code is constant('Symfony\Component\HttpFoundation\Response::HTTP_NOT_FOUND') %}
+
                 <div style="padding: 20px; text-align: center;">
                     <strong><i>But I find a route to Julie's Gayet house!</i></strong><br />
                     
